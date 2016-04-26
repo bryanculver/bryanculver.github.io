@@ -1,9 +1,12 @@
 ---
 layout: default
-title: me@bryanculver GPG Public Key
-permalink: /gpg/
+title: me@bryanculver PGP Public Key
+permalink: /pgp/
 ---
-My GPG Public Key for me@bryanculver.com: 
+My PGP Public Key for me@bryanculver.com: 
+
+Unfortunately, for the time being GitHub doesn't support HTTPS on custom domain Pages.
+However if you are concerned about the correctness of this key, you can visit the [GitHub Repository](https://github.com/bryanculver/bryanculver.github.io) to see the history of this key.
 
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 mQINBFUB5ZUBEAD3kcoR9hoJlD311pRbDouGLIwHPDRGzSWoO8UUg7L2mnMnulpN
