@@ -1,0 +1,12 @@
+# Site settings
+title: bryanculver.com
+email: me@bryanculver.com
+description: > 
+    For the time being... nothing.
+baseurl: "" 
+url: "http://bryanculver.com" 
+twitter_username: bryanculver 
+github_username:  bryanculver
+
+# Build settings
+markdown: kramdown
