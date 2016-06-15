@@ -1,0 +1,80 @@
+==================================================================
+https://keybase.io/bryanculver
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://bryanculver.com
+  * I am bryanculver (https://keybase.io/bryanculver) on keybase.
+  * I have a public key with fingerprint 810B A9FC 788A 8B2C 9EB9  559C 834D 7494 DEDB 1DD8
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101ca1adb2f22b2a8ee0a1c3c3ac7adeace81c4334e7f24b17c2b9f5e5e97bf88520a",
+            "fingerprint": "810ba9fc788a8b2c9eb9559c834d7494dedb1dd8",
+            "host": "keybase.io",
+            "key_id": "834d7494dedb1dd8",
+            "kid": "0101ca1adb2f22b2a8ee0a1c3c3ac7adeace81c4334e7f24b17c2b9f5e5e97bf88520a",
+            "uid": "79141c5d8692b7839162f793bd93a119",
+            "username": "bryanculver"
+        },
+        "revoke": {
+            "sig_ids": [
+                "27d1d79257b228cc7cc152d69b00de5347f5894fdefe3ef14555c7898eeaaab00f"
+            ]
+        },
+        "service": {
+            "hostname": "bryanculver.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1465964303,
+    "expire_in": 157680000,
+    "prev": "c76e96cc2aa97c2ffc3e8f6a6abdefd94fead61b70788c896e548fe82dc476be",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Comment: GPGTools - https://gpgtools.org
+
+owGtUn1MlVUc5vIpIJCIIzCWvUblvLD7fr8vxkaTDz9GDVPIicJ5z3veyzvgXrj3
+vXyKI8yLhDZEdtFGRhoqAq05SFxD2QhIQAu4JouGlkDx0aqtxMZX57L6q/7s/HN2
+znl+z+95nvOrCfBw89MdT9bqJsYjxnSDM5JbWuaDkFJCMsvFREwpkY3WNpQjI6uW
+ka3KRAxhIA0kBCSQJUqhKIkCAkIGQEIa0gDyQEYAIoGEDE0ziFcoRiJ5SEmiwiIW
+ibykCAJLGQChJxTVZESWPItq0jCtQBokICqQFwQgSBQUkSSyrAgFmpF5RmRkJEuk
+LAu4MMtsdVVgcRKwomjVjO/wIWNN3n/g/2fdtjU6XiQZErKywImUxAu0SHKUwou0
+JIs0IEnRBbQiiwnkIoyWLMXABG05BchClOkJCyowZyNXtFbViHVbiZhDBMXLpMyL
+FMtLFCVAyENIspTMiZLBICOWZniFFURGkZGCaKSQDMuyOC4R+wAAYJBCHMbcuGmB
+CtfIXUH9W0A0NOdidXkWs2aG5hz8mKVpeTEuXTe14jwXuhBJGX/zZEiqScY/hStw
+rVU1m4gYEkOhprqISYZjRY6hDbSeQEV5qgVlqC4Ey3OCAS9XH1SAKSHPIZGDkAJA
+xMEqCqSRoHCAAxI2JGNfCMgcKfEGPAFQEDnEMoKCBEqGDM9JiHA5yzeZiRhOT2jA
+iClxdiag2SyIKPOrcn/O003n5+bt5e4aYTc/32f+mevF1KAl/9GV+qiW6cBQcEfb
+NTLsvX7vcMduNgzpzkfpmm3J+1MSJuoL+cTa8HjP+sEr7U/Ks/M7ZyZPKW96/RLf
+FlY4b/TVv1WTzsSFRBT36xuTdDvL0u8OjM0tdZ18rEyFxvU++2X4pQO5Da8ccTY5
+an3ttUt3Mu/3J8X2dV5JvDxQda1k2WFM7yVL42j7qmduxFzaeyubv196WnHGcrbq
++botx4L7itzvB/Mv8ymLj9Tg0fYXem5l3UzcHOjMv97vFdty6d2+q2EDzoAzBxO6
+viufHuw6/LXMec5MbdsUWz5vL6vbate3b19ccfgYOP6Te9/WNTb/Njt0KPLEvtWX
+uo58bPz1hs8tS4ev38Tsq3NtxR+17qRajrbJ65Y3BAlvlCRNr/uxbGWkuuL4tuDq
+nD/g0EjGD+NpWyJ/T79w+7M42/qHk8y5wJyW6CKvRx8uEub20yHh4a3jJzqHvP31
+kR76mg+Wngat9FaOX5vS+XtcPPsk/d7CQnjHya0pNy6bDvhpzpLagwvTnfBYT3zl
+8Pn5UxX7J1MntMdjod/UT1UFOCZTc4u+2HT3te7Z3W9fbLua9eK5qIDXUaVPb+mO
+svaBpJ+PNk87dwx1bnmQ/7mdbP00ofuhPbVob7Vtw8ahVUd3U1TY+8k91/c0hn21
+/Send/3td/aNNiVnLp/e9WfcePrGUI+GqD0NY44Ldstf
+=580g
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bryanculver
+
+==================================================================
+
