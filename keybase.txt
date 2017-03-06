@@ -4,9 +4,9 @@ https://keybase.io/bryanculver
 
 I hereby claim:
 
-  * I am an admin of http://bryanculver.com
+  * I am an admin of https://bryanculver.com
   * I am bryanculver (https://keybase.io/bryanculver) on keybase.
-  * I have a public key with fingerprint 810B A9FC 788A 8B2C 9EB9  559C 834D 7494 DEDB 1DD8
+  * I have a public key ASDG7UfV5X3-O0vw11itmDTQFwB4EYp7H7wrVNjimeLS8wo
 
 To do so, I am signing this object:
 
@@ -14,62 +14,37 @@ To do so, I am signing this object:
     "body": {
         "key": {
             "eldest_kid": "0101ca1adb2f22b2a8ee0a1c3c3ac7adeace81c4334e7f24b17c2b9f5e5e97bf88520a",
-            "fingerprint": "810ba9fc788a8b2c9eb9559c834d7494dedb1dd8",
             "host": "keybase.io",
-            "key_id": "834d7494dedb1dd8",
-            "kid": "0101ca1adb2f22b2a8ee0a1c3c3ac7adeace81c4334e7f24b17c2b9f5e5e97bf88520a",
+            "kid": "0120c6ed47d5e57dfe3b4bf0d758ad9834d0170078118a7b1fbc2b54d8e299e2d2f30a",
             "uid": "79141c5d8692b7839162f793bd93a119",
             "username": "bryanculver"
         },
-        "revoke": {
-            "sig_ids": [
-                "27d1d79257b228cc7cc152d69b00de5347f5894fdefe3ef14555c7898eeaaab00f"
-            ]
-        },
         "service": {
             "hostname": "bryanculver.com",
-            "protocol": "http:"
+            "protocol": "https:"
         },
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1465964303,
-    "expire_in": 157680000,
-    "prev": "c76e96cc2aa97c2ffc3e8f6a6abdefd94fead61b70788c896e548fe82dc476be",
-    "seqno": 6,
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1488787803,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1488787696,
+        "hash": "1a7cc2ab083fcfb8fc898ca1b309d9e2b147888cd652f1e8d1fa93970874306c5cd0a3949360d3e4d6bd8dc356198e5b83c59bdefd1f223baa7c7e2c0ec53dc8",
+        "seqno": 941059
+    },
+    "prev": "4d94874df87d41ac4b65fea2d0dd42c6924649849d72b81bea0e38e9117ef2ff",
+    "seqno": 17,
     "tag": "signature"
 }
 
 which yields the signature:
 
------BEGIN PGP MESSAGE-----
-Comment: GPGTools - https://gpgtools.org
-
-owGtUn1MlVUc5vIpIJCIIzCWvUblvLD7fr8vxkaTDz9GDVPIicJ5z3veyzvgXrj3
-vXyKI8yLhDZEdtFGRhoqAq05SFxD2QhIQAu4JouGlkDx0aqtxMZX57L6q/7s/HN2
-znl+z+95nvOrCfBw89MdT9bqJsYjxnSDM5JbWuaDkFJCMsvFREwpkY3WNpQjI6uW
-ka3KRAxhIA0kBCSQJUqhKIkCAkIGQEIa0gDyQEYAIoGEDE0ziFcoRiJ5SEmiwiIW
-ibykCAJLGQChJxTVZESWPItq0jCtQBokICqQFwQgSBQUkSSyrAgFmpF5RmRkJEuk
-LAu4MMtsdVVgcRKwomjVjO/wIWNN3n/g/2fdtjU6XiQZErKywImUxAu0SHKUwou0
-JIs0IEnRBbQiiwnkIoyWLMXABG05BchClOkJCyowZyNXtFbViHVbiZhDBMXLpMyL
-FMtLFCVAyENIspTMiZLBICOWZniFFURGkZGCaKSQDMuyOC4R+wAAYJBCHMbcuGmB
-CtfIXUH9W0A0NOdidXkWs2aG5hz8mKVpeTEuXTe14jwXuhBJGX/zZEiqScY/hStw
-rVU1m4gYEkOhprqISYZjRY6hDbSeQEV5qgVlqC4Ey3OCAS9XH1SAKSHPIZGDkAJA
-xMEqCqSRoHCAAxI2JGNfCMgcKfEGPAFQEDnEMoKCBEqGDM9JiHA5yzeZiRhOT2jA
-iClxdiag2SyIKPOrcn/O003n5+bt5e4aYTc/32f+mevF1KAl/9GV+qiW6cBQcEfb
-NTLsvX7vcMduNgzpzkfpmm3J+1MSJuoL+cTa8HjP+sEr7U/Ks/M7ZyZPKW96/RLf
-FlY4b/TVv1WTzsSFRBT36xuTdDvL0u8OjM0tdZ18rEyFxvU++2X4pQO5Da8ccTY5
-an3ttUt3Mu/3J8X2dV5JvDxQda1k2WFM7yVL42j7qmduxFzaeyubv196WnHGcrbq
-+botx4L7itzvB/Mv8ymLj9Tg0fYXem5l3UzcHOjMv97vFdty6d2+q2EDzoAzBxO6
-viufHuw6/LXMec5MbdsUWz5vL6vbate3b19ccfgYOP6Te9/WNTb/Njt0KPLEvtWX
-uo58bPz1hs8tS4ev38Tsq3NtxR+17qRajrbJ65Y3BAlvlCRNr/uxbGWkuuL4tuDq
-nD/g0EjGD+NpWyJ/T79w+7M42/qHk8y5wJyW6CKvRx8uEub20yHh4a3jJzqHvP31
-kR76mg+Wngat9FaOX5vS+XtcPPsk/d7CQnjHya0pNy6bDvhpzpLagwvTnfBYT3zl
-8Pn5UxX7J1MntMdjod/UT1UFOCZTc4u+2HT3te7Z3W9fbLua9eK5qIDXUaVPb+mO
-svaBpJ+PNk87dwx1bnmQ/7mdbP00ofuhPbVob7Vtw8ahVUd3U1TY+8k91/c0hn21
-/Send/3td/aNNiVnLp/e9WfcePrGUI+GqD0NY44Ldstf
-=580g
------END PGP MESSAGE-----
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgxu1H1eV9/jtL8NdYrZg00BcAeBGKex+8K1TY4pni0vMKp3BheWxvYWTFAvt7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxY2ExYWRiMmYyMmIyYThlZTBhMWMzYzNhYzdhZGVhY2U4MWM0MzM0ZTdmMjRiMTdjMmI5ZjVlNWU5N2JmODg1MjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYzZlZDQ3ZDVlNTdkZmUzYjRiZjBkNzU4YWQ5ODM0ZDAxNzAwNzgxMThhN2IxZmJjMmI1NGQ4ZTI5OWUyZDJmMzBhIiwidWlkIjoiNzkxNDFjNWQ4NjkyYjc4MzkxNjJmNzkzYmQ5M2ExMTkiLCJ1c2VybmFtZSI6ImJyeWFuY3VsdmVyIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJicnlhbmN1bHZlci5jb20iLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xOCJ9LCJjdGltZSI6MTQ4ODc4NzgwMywiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDg4Nzg3Njk2LCJoYXNoIjoiMWE3Y2MyYWIwODNmY2ZiOGZjODk4Y2ExYjMwOWQ5ZTJiMTQ3ODg4Y2Q2NTJmMWU4ZDFmYTkzOTcwODc0MzA2YzVjZDBhMzk0OTM2MGQzZTRkNmJkOGRjMzU2MTk4ZTViODNjNTliZGVmZDFmMjIzYmFhN2M3ZTJjMGVjNTNkYzgiLCJzZXFubyI6OTQxMDU5fSwicHJldiI6IjRkOTQ4NzRkZjg3ZDQxYWM0YjY1ZmVhMmQwZGQ0MmM2OTI0NjQ5ODQ5ZDcyYjgxYmVhMGUzOGU5MTE3ZWYyZmYiLCJzZXFubyI6MTcsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAtk5hQ1e7mP9YIn5qhRO/dkt/NdSIo2FxV67V67YC3zSmdc8Vb9UU/AXlVbGDTC/ZmGaVgL/bThC8aSBHdMVvBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMpglnyAAXLFnIcyq2vZtICcnfsKbrPc6GfjvFGkoZEzo3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
@@ -77,4 +52,3 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/bryanculver
 
 ==================================================================
-
