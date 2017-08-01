@@ -1,12 +1,15 @@
-<!DOCTYPE html>
-<html>
-
+<!doctype html>
+<html lang="en">
   {% include head.html %}
-
   <body>
-    <pre>
-      {{ content }}
-    </pre>
+    <div class="wrapper">
+        {% include header.html %}
+        <section>
+          <h2>{{ page.title }}</h2>
+          {{ content }}
+        </section>
+        {% include footer.html %}
+    </div>
+    {% js main %}
   </body>
-
 </html>

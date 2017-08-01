@@ -1,11 +1,8 @@
 ---
 layout: default
+title: Welcome
 ---
 
-# Bryan Culver
-me@bryanculver.com
-Find me on [keybase.io](https://keybase.io/bryanculver)
+I code. I rarely write things. I think a lot. More to come.
 
-[PGP Public Key](/pgp)
-[SSL Public Key](/ssl)
-[Resume](/resume)
+Sometime I [ramble](https://twitter.com/bryanculver).

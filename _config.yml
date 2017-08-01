@@ -15,6 +15,18 @@ sass:
   sass_dir: _sass
   style: compressed
 
+gems:
+  - jekyll-assets
+
+assets:
+  compress:
+    css: true
+    js: true
+  prefix: "/assets"
+  digest: true
+
+babel_js_extensions: 'es6, babel, jsx'
+
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Bryan Culver"
@@ -51,4 +63,12 @@ resume_social_links:
 
 # Design settings
 resume_theme:                   default
+
+destination: public
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - /tmp/
+  - config.ru
 
