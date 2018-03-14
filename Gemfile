@@ -6,5 +6,7 @@ gem 'sprockets-es6'
 gem 'jekyll-sitemap'
 gem 'jekyll-last-modified-at'
 gem 'jekyll-feed'
-gem 'rack'
-gem 'puma'
+group :development do
+  gem 'rack'
+  gem 'puma'
+end
