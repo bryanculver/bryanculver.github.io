@@ -15,8 +15,11 @@ sass:
   sass_dir: _sass
   style: compressed
 
-gems:
+plugins:
   - jekyll-assets
+  - jekyll-last-modified-at
+  - jekyll-sitemap
+  - jekyll-feed
 
 assets:
   compress:
@@ -66,9 +69,16 @@ resume_theme:                   default
 
 destination: public
 
+defaults:
+  -
+    scope:
+      path: "blog"
+      type: "posts"
+    values:
+      layout: "post"
+
 exclude:
   - Gemfile
   - Gemfile.lock
   - /tmp/
   - config.ru
-

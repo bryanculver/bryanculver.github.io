@@ -11,7 +11,7 @@
 
         <!-- You can turn off the avatar in _config.yml by setting to false -->
         {% if site.resume_avatar == 'true' %}
-        <img src="images/avatar.png" alt="my photo" class="avatar no-print" itemprop="image">
+        {% asset avatar.png width=auto height=auto class='avatar no-print' %}
         {% endif %}
 
         <!-- Your name is defined in the _config.yml file -->

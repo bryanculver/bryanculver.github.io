@@ -1,7 +1,10 @@
 source 'https://rubygems.org'
 ruby RUBY_VERSION
-gem "jekyll", "3.4.3"
+gem "jekyll"
 gem "jekyll-assets"
 gem 'sprockets-es6'
+gem 'jekyll-sitemap'
+gem 'jekyll-last-modified-at'
+gem 'jekyll-feed'
 gem 'rack'
 gem 'puma'

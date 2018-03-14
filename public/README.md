@@ -1,1 +1,0 @@
-# bryanculver.github.io
