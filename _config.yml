@@ -82,3 +82,6 @@ exclude:
   - Gemfile.lock
   - /tmp/
   - config.ru
+
+include:
+  - ".well-known"

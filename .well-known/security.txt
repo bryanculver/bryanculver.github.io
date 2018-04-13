@@ -1,0 +1,3 @@
+Contact: mailto:me@bryanculver.com
+Encryption: https://www.bryanculver.com/pgp/me-bryanculver-com.txt
+Signature: https://www.bryanculver.com/.well-known/security.txt.sig
