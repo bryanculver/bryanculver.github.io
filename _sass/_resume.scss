@@ -3,6 +3,10 @@
 
 // util
 
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 .section-header {
   @include section_border;
   margin-bottom: 1.5rem;
@@ -210,6 +214,7 @@
   body {
     font-size: 12px;
     line-height: 1rem;
+    letter-spacing: -0.05rem !important;
   }
   .page-header {
     padding: 1rem 0 0.2rem;
