@@ -69,6 +69,14 @@ body {
     }
   }
 
+  .print-social-bar {
+    border-bottom: 1px solid #c7c7c7;
+    border-top: 1px solid #c7c7c7;
+    font-size: 0.8em;
+    text-align: center;
+    padding: 0.2em 0;
+  }
+
   .executive-summary {
     @include media_larger_than_mobile {
       font-size: 1rem;
