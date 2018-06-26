@@ -164,7 +164,13 @@ body {
   .resume-item-details {
     font-size: 1.125rem;
     margin: 0 0 0.75rem;
-    line-height: 1;
+    line-height: 1rem;
+    span {
+      font-weight: normal;
+      font-style: italic;
+      font-size: .9;
+      line-height: 1.5rem;
+    }
   }
 
   .resume-item-title,
