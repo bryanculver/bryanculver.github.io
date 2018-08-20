@@ -10,25 +10,14 @@ github_username:  bryanculver
 
 # Build settings
 markdown: kramdown
-
 sass:
-  sass_dir: _sass
+  sass_dir: assets/_scss
   style: compressed
 
 plugins:
-  - jekyll-assets
   - jekyll-last-modified-at
   - jekyll-sitemap
   - jekyll-feed
-
-assets:
-  compress:
-    css: true
-    js: true
-  prefix: "/assets"
-  digest: true
-
-babel_js_extensions: 'es6, babel, jsx'
 
 # Resume settings
 resume_avatar:                  "true"
@@ -66,8 +55,6 @@ resume_social_links:
 
 # Design settings
 resume_theme:                   default
-
-destination: public
 
 defaults:
   -
