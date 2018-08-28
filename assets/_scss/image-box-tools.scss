@@ -1,0 +1,24 @@
+.image-box {
+  padding: .75em .75em .5em;
+  border: 1px solid #e5e5e5;
+  background-color: #fcfcfc;
+  border-radius: 3px;
+  text-align: center;
+  font-size: .8em;
+}
+
+.image-box-third {
+  width: 33%;
+}
+
+.image-box-half {
+  width: 50%;
+}
+
+.image-box-wrap-left {
+  float: right;
+}
+
+.image-box-wrap-right {
+  float: left;
+}

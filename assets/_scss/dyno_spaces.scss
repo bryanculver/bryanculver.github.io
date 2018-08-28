@@ -1,0 +1,48 @@
+/*
+  # Dyno Spaces
+    Quickly generate margin and padding units as CSS classes.
+    
+    FORMAT
+    .r[type][side]-[unit]
+    EXAMPLE
+  
+    .rmt-1 = Margin Top @ 1rem
+    OPTIONS
+    Type:
+    - m : Margin
+    - p : Padding
+    
+    Side:
+    - t,r,b,l : Top, Right, Bottom, Left (respectively)
+    - x       : Right & Left
+    - y       : Top & Bottom
+    - (none)  : All sides
+    Units:
+    - 1-10    : 1-10 rem
+   
+*/
+
+$prefix: 'r';
+$space-types: (m: margin, p: padding);
+$space-sides: (t: top, r: right, b: bottom, l: left);
+@each $space-type-abbr, $space-type-name in $space-types {
+  @for $space from 1 to 10 {
+    @each $space-side-abbr, $space-side-name in $space-sides {
+      .#{$prefix}#{$space-type-abbr}#{$space-side-abbr}-#{$space} {
+        #{$space-type-name}-#{$space-side-name}: #{$space}rem;
+      }
+    }
+    .#{$prefix}#{$space-type-abbr}x-#{$space} {
+      @extend .#{$prefix}#{$space-type-abbr}l-#{$space};
+      @extend .#{$prefix}#{$space-type-abbr}r-#{$space};
+    }
+    .#{$prefix}#{$space-type-abbr}y-#{$space} {
+      @extend .#{$prefix}#{$space-type-abbr}t-#{$space};
+      @extend .#{$prefix}#{$space-type-abbr}b-#{$space};
+    }
+    .#{$prefix}#{$space-type-abbr}-#{$space} {
+      @extend .#{$prefix}#{$space-type-abbr}x-#{$space};
+      @extend .#{$prefix}#{$space-type-abbr}y-#{$space};
+    }
+  }
+}
