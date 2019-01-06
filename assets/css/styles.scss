@@ -1,4 +1,8 @@
-@import 'styles';
+---
+---
+@import 'base';
+@import 'dyno_spaces';
+@import 'image-box-tools';
 @import 'pygment_trac';
 a {
   color: #1fb25a;
