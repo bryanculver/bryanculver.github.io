@@ -2,6 +2,9 @@ My keys have been relocated. Below is an index.
 
 
 me@bryanculver.com: https://www.bryanculver.com/pgp/me-bryanculver-com.txt
+bryan@makefixknow.com: https://www.bryanculver.com/pgp/me-bryanculver-com.txt
+bryan.culver@networktocode.com: https://www.bryanculver.com/pgp/me-bryanculver-com.txt
+
 
 (LEGACY)
 bryan@makefixknow.com: https://www.bryanculver.com/pgp/bryan-makefixknow-com.txt
