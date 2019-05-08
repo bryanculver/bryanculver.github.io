@@ -32,7 +32,7 @@ svg.icon {
   height: 1.2em;
   vertical-align: text-bottom;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479px) {
   header {
     text-align: center;
     display: flex;
@@ -45,5 +45,44 @@ svg.icon {
     nav {
       width: 65%;
     }
+  }
+}
+@media screen and (min-width: 960px) {
+  header {
+    width: 200px;
+
+    .avatar {
+      width: 80%;
+    }
+    ul {
+      width: 200px;
+      height: unset;
+
+      li + li + li {
+        border-right: unset;
+        width: unset;
+      }
+
+      li:last-child {
+        border-bottom: none;
+        border-right: none;
+      }
+    }
+
+    li {
+      border-bottom: 1px solid #e0e0e0;
+      border-right: none;
+      float: unset;
+      width: unset;
+    }
+  }
+
+  section {
+    width: 600px;
+  }
+
+  footer {
+    width: 200px;
+    bottom: 0px;
   }
 }
