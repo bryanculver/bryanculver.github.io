@@ -6,7 +6,8 @@ layout: default
 {% for post in site.posts %}
   <article class="{% if forloop.first %}first{% elsif forloop.last %}last{% else %}middle{% endif %}">
 		<div class="article-head">
-			<h2 class="title">{{ post.title }}<br /><small class="date">- {{ post.date | date: "%b %d, %Y" }}</small></h2>
+			<h2 class="title">{{ post.title }}</h2>
+			<span class="meta">- {{ post.date | date: "%b %d, %Y" }}</span>
 		</div>
 		<div class="article-content">
 		{{ post.content }}

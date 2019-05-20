@@ -8,6 +8,8 @@ a {
   color: #1fb25a;
 }
 header {
+  z-index: 2;
+
   a {
     color: inherit;
   }
@@ -27,10 +29,30 @@ section {
   a {
     text-decoration: underline;
   }
+  .article-head {
+    margin-bottom: 20px;
+
+    .title {
+      margin-bottom: 0px;
+    }
+
+    .meta {
+      font-size: .8em;
+    }
+  }
 }
 svg.icon {
-  height: 1.2em;
+  fill: #999;
   vertical-align: text-bottom;
+}
+p svg.icon {
+  height: 1.2em;
+}
+footer {
+  z-index: 1;
+}
+.text-dark {
+  color: #0E121A;
 }
 @media screen and (max-width: 479px) {
   header {
@@ -70,7 +92,7 @@ svg.icon {
     }
 
     li {
-      border-bottom: 1px solid #e0e0e0;
+      border-bottom: 1px solid #161C27;
       border-right: none;
       float: unset;
       width: unset;
