@@ -1,4 +1,14 @@
 ---
 layout: default
 ---
-{{ content }}
+
+<article>
+  <h1>{{ page.title }}</h1>
+  <div class="article-head">
+    <span class="meta">- {{ page.date | date: "%b %-d, %Y" }}</span>
+  </div>
+  <hr />
+  <div class="article-content">
+    {{ content }}
+  </div>
+</article>

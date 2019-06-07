@@ -8,17 +8,25 @@ body {
   font-weight: 400;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
   font-family: 'Georgia', 'Palatino', 'Kai', 'Big Caslon', Baskerville;
   color: #eee;
   margin: 0 0 20px;
   font-weight: 500;
   letter-spacing: 0.3px;
+  display: block;
+  a {
+    color: inherit;
+  }
+  svg.icon {
+    font-size: .6em;
+    vertical-align: middle;
+  }
 }
 
 p,
@@ -30,25 +38,14 @@ dl {
   margin: 0 0 20px;
 }
 
-h1,
-h2,
-h3 {
+h1, .h1,
+h2, .h2,
+h3, .h3 {
   line-height: 1.1;
 }
 
-h1 {
+h1, .h1 {
   font-size: 30px;
-}
-
-h2 {
-  color: #eee;
-}
-
-h3,
-h4,
-h5,
-h6 {
-  color: #eee;
 }
 
 a {
@@ -139,7 +136,7 @@ img {
 }
 
 header {
-  width: 270px;
+  width: 210px !important;
   float: left;
   position: fixed;
   -webkit-font-smoothing: subpixel-antialiased;
