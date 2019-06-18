@@ -10,5 +10,8 @@ layout: default
   <hr />
   <div class="article-content">
     {{ content }}
+    {% if page.link_out %}
+    <p><a href="{{ page.link_out }}" target="_blank">Visit</a></p>
+    {% endif %}
   </div>
 </article>
