@@ -8,5 +8,5 @@ gem 'jekyll-last-modified-at'
 gem 'jekyll-feed'
 group :development do
   gem 'rack'
-  gem 'puma'
+  gem 'puma', ">= 4.3.1"
 end
