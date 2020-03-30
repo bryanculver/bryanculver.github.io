@@ -66,6 +66,8 @@ ${IMAGE_DIRS}:
 
 There is only one variable expected to be set in this Makefile and that's `DOCKERHUB_OWNER`. This is the top-level nesting of where these Docker images will be uploaded to. This will be supplied by the GitHub Actions workflow later but if you intend to also run this on the command line occasionally you should not only login to the registry by running `docker login` but also set `DOCKERHUB_OWNER` either in your personal environment variable or use something like [direnv](https://direnv.net/).
 
+Depending on your directory structure, you will likely need to change `IMAGE_DIRS` to include the top level directory where your Dockerfiles will be.
+
 Another customizable piece is the `IMAGE_PREFIX`. If you would like to keep all of your monorepo images together visually, you can supply a prefix to be prepended to the image name. With everything defined as above, the images would be named:
 
 - my-super-awesome-monorepo-app-example
