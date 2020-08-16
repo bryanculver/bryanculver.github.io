@@ -1,5 +1,6 @@
 ---
 title: "Build Monorepo of Docker Images with Make & GitHub Actions"
+description: "Monorepos are great for building and maintaining a bunch of small microservices. Here is a way to build a collection of Docker images both locally and in a CI/CD pipline with Make & GitHub Actions"
 ---
 Typically I'm a big fan of every app having a separate repo. However many times in the early phases of a project a monorepo can make more sense as a small team is building out the core infrastructure of a platform.
 
